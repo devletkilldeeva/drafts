@@ -1,0 +1,37 @@
+body {
+  width: 100vw;
+}
+
+.work {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.pic1x-1, .pic1x-2 {
+  width: 284px;;
+}
+
+.pic1x-1 {
+  margin-left: -7px;
+
+  grid-column: 1/4;
+}
+
+.pic1x-1:nth-child(2) {
+  margin-top: -50px;
+}
+
+.pic1x-2 {
+  margin-top: -50px;
+  margin-left: 50px;
+
+  grid-column: 3;
+}
+
+.paragraph {
+ margin-top: -150px;
+
+ grid-column: 2;
+}
